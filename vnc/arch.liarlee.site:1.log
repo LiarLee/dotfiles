@@ -1,0 +1,103 @@
+Using desktop session dwm
+
+New 'arch.liarlee.site:1 (ec2-user)' desktop is arch.liarlee.site:1
+
+Starting desktop session dwm
+
+
+Xvnc TigerVNC 1.13.1 - built Aug 10 2023 01:23:35
+Copyright (C) 1999-2022 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101006
+
+
+Sun Dec  3 00:31:54 2023
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x55c2d76b5010 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x55c2d76b5010 for event 3
+xinit: XFree86_VT property unexpectedly has 0 items instead of 1
+Running X session wrapper
+Loading profile from /etc/profile
+Loading profile from /home/ec2-user/.profile
+Loading xinit script /etc/X11/xinit/xinitrc.d/40-libcanberra-gtk-module.sh
+Loading xinit script /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+X session wrapper complete, running session /usr/local/bin/dwm
+
+Sun Dec  3 00:31:57 2023
+ Connections: accepted: 117.129.46.167::29543
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+
+Sun Dec  3 00:32:08 2023
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+I2023-12-03 00:37:10.627994 instance.cpp:1323] Override Enabled Addons: {}
+I2023-12-03 00:37:10.628029 instance.cpp:1324] Override Disabled Addons: {}
+I2023-12-03 00:37:10.628997 addonmanager.cpp:193] Loaded addon imselector
+I2023-12-03 00:37:10.630824 xcbconnection.cpp:185] Connecting to X11 display, display name::1.
+I2023-12-03 00:37:10.630973 addonmanager.cpp:193] Loaded addon xcb
+I2023-12-03 00:37:10.631964 addonmanager.cpp:193] Loaded addon quickphrase
+I2023-12-03 00:37:10.638033 addonmanager.cpp:193] Loaded addon keyboard
+I2023-12-03 00:37:10.639063 addonmanager.cpp:193] Loaded addon dbus
+I2023-12-03 00:37:10.639626 addonmanager.cpp:193] Loaded addon dbusfrontend
+I2023-12-03 00:37:10.647907 addonmanager.cpp:193] Loaded addon fcitx4frontend
+I2023-12-03 00:37:10.648659 addonmanager.cpp:193] Loaded addon ibusfrontend
+I2023-12-03 00:37:10.649246 addonmanager.cpp:193] Loaded addon xim
+E2023-12-03 00:37:10.651083 waylandmodule.cpp:208] Failed to open wayland connection
+I2023-12-03 00:37:10.651103 addonmanager.cpp:193] Loaded addon wayland
+I2023-12-03 00:37:10.659212 addonmanager.cpp:193] Loaded addon clipboard
+I2023-12-03 00:37:10.659429 addonmanager.cpp:193] Loaded addon waylandim
+I2023-12-03 00:37:10.659614 addonmanager.cpp:193] Loaded addon unicode
+I2023-12-03 00:37:10.691496 inputmethodmanager.cpp:198] Found 737 input method(s) in addon keyboard
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+I2023-12-03 00:37:10.705681 addonmanager.cpp:193] Loaded addon kimpanel
+I2023-12-03 00:37:10.705890 addonmanager.cpp:193] Loaded addon virtualkeyboard
+I2023-12-03 00:37:10.719303 classicui.cpp:75] Created classicui for x11 display::1
+I2023-12-03 00:37:10.719324 addonmanager.cpp:193] Loaded addon classicui
+I2023-12-03 00:37:10.719575 addonmanager.cpp:193] Loaded addon notificationitem
+I2023-12-03 00:37:10.719889 addonmanager.cpp:193] Loaded addon notifications
+I2023-12-03 00:37:10.723906 kimpanel.cpp:116] Kimpanel new owner: 
+I2023-12-03 00:37:10.723938 virtualkeyboard.cpp:223] VirtualKeyboard new owner: 
+E2023-12-03 00:37:10.723974 portalsettingmonitor.cpp:115] DBus call error: org.freedesktop.DBus.Error.ServiceUnknown The name org.freedesktop.portal.Desktop was not provided by any .service files
+E2023-12-03 00:37:10.724004 portalsettingmonitor.cpp:115] DBus call error: org.freedesktop.DBus.Error.ServiceUnknown The name org.freedesktop.portal.Desktop was not provided by any .service files
+I2023-12-03 00:37:10.749351 addonmanager.cpp:193] Loaded addon rime
