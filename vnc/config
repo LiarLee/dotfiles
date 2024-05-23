@@ -1,8 +1,0 @@
-session=dwm
-geometry=2560x1440
-depth=24
-alwaysshared
-securitytypes=vncauth,tlsvnc
-acceptsetdesktopsize=0
-framerate=60
-
