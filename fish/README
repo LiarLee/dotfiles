@@ -1,0 +1,5 @@
+### Configfile Location
+╰─>$ cp -prv ~/.config/fish/ ./
+'/home/ec2-user/.config/fish/' -> './fish'
+'/home/ec2-user/.config/fish/config.fish' -> './fish/config.fish'
+...

@@ -1,0 +1,6 @@
+
+### Configfile Location
+╰─>$ cp -v ~/.config/rofi/config.rasi .
+'/home/ec2-user/.config/rofi/config.rasi' -> './config.rasi'
+
+

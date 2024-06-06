@@ -1,0 +1,4 @@
+### Configfile Location
+╰─>$ cp -prv ~/.config/ranger/rc.conf .
+'/home/ec2-user/.config/ranger/rc.conf' -> './rc.conf'
+
