@@ -7,19 +7,19 @@ update:
 	cp -pr ~/.config/htop/* ./htop/
 
 install:
-	mkdir -pv ~/.config/{fish,rofi,picom,ranger,alacritty,htop}
-	cp -prv ./fish/* ~/.config/fish/
-	cp -prv ./rofi/* ~/.config/rofi/
-	cp -prv ./picom/* ~/.config/picom/
-	cp -prv ./ranger/* ~/.config/ranger/
-	cp -prv ./alacritty/* ~/.config/alacritty/
-	cp -prv ./htop/* ~/.config/htop/
+	mkdir -p ~/.config/{fish,rofi,picom,ranger,alacritty/themes,htop}
+	cp -pr ./fish/* ~/.config/fish/
+	cp -pr ./rofi/* ~/.config/rofi/
+	cp -pr ./picom/* ~/.config/picom/
+	cp -pr ./ranger/* ~/.config/ranger/
+	cp -pr ./alacritty/* ~/.config/alacritty/
+	cp -pr ./htop/* ~/.config/htop/
+	git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 
 clean:
-	rm -rfv ~/.config/fish/
-	rm -rfv ~/.config/rofi/
-	rm -rfv ~/.config/picom/
-	rm -rfv ~/.config/ranger/
-	rm -rfv ~/.config/alacritty/
-	rm -rfv ~/.config/htop/
-
+	rm -rf ~/.config/fish/
+	rm -rf ~/.config/rofi/
+	rm -rf ~/.config/picom/
+	rm -rf ~/.config/ranger/
+	rm -rf ~/.config/alacritty/
+	rm -rf ~/.config/htop/
