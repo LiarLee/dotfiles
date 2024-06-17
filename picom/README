@@ -1,4 +1,0 @@
-### Configfile Location
-╰─>$ cp -prv ~/.config/picom/picom.conf ./
-'/home/ec2-user/.config/picom/picom.conf' -> './picom.conf'
-

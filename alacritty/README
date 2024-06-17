@@ -1,8 +1,0 @@
-
-### Configfile Location
-╰─>$ cp -prv ~/.config/alacritty/* .
-'/home/ec2-user/.config/alacritty/alacritty.toml' -> './alacritty.toml'
-'/home/ec2-user/.config/alacritty/alacritty.yml' -> './alacritty.yml'
-...
-
-### Include the alacritty theme repo
