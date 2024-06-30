@@ -47,11 +47,6 @@
             "key": "󰅐"
         },
         {
-            "type": "weather",
-            "key": "",
-            "timeout": 500
-        },
-        {
             "type": "localip",
             "key": "",
         },

@@ -1,6 +1,6 @@
 update:
 	cp -pr ~/.config/fish/* ./fish/
-	cp -pr ~/.config/fastfetch/* ./fish/
+	cp -pr ~/.config/fastfetch/* ./fastfetch/
 	cp -pr ~/.config/rofi/* ./rofi/
 	cp -pr ~/.config/picom/* ./picom/
 	cp -pr ~/.config/ranger/* ./ranger/
