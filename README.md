@@ -1,6 +1,6 @@
 ### Installation Guide
 
-When try to use this project, try to make. 
+When trying this project, use the makefile.
 
 there are 3 options at makefile
 1. update 
