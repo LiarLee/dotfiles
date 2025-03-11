@@ -13,6 +13,7 @@ If the new install os, you need to install following packages first:
 ```
 
 ### New Alias
+```shell
 ┬─[hayden@HaydenArchRPi4:~/.c/fish]─[02:18:42 PM]
 ╰─>$ alias --save dcu="docker compose up -d"
 funcsave: wrote /home/hayden/.config/fish/functions/dcu.fish
@@ -60,4 +61,4 @@ funcsave: wrote /home/hayden/.config/fish/functions/vimdiff.fish
 ┬─[hayden@HaydenArchRPi4:~]─[02:28:52 PM]
 ╰─>$ alias --save lg lazygit
 funcsave: wrote /home/hayden/.config/fish/functions/lg.fish
-
+```
