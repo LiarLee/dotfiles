@@ -6,7 +6,7 @@ If the new install os, you need to install following packages first:
   - docker 
   - docker-compose
 
-### Rsync to update the update setting.
+### Rsync to update setting.
 
 ```shell
   rsync -aP ~/.config/fish ~/Documents/Github-Repo/dotfiles/
