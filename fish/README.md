@@ -4,12 +4,13 @@ If you have the new installation OS, please install the following packages first
   - eza
   - bat
   - lazygit
+  - fzf
   - docker 
   - docker-compose
 
 Maybe Archliux? Simple.
 ```shell
-sudo pacman -S bat fish eza lazygit docker docker-compose
+sudo pacman -S fzf bat fish eza lazygit docker docker-compose
 ```
 
 
