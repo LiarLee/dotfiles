@@ -1,10 +1,16 @@
 ## NOTE  
-If the new install os, you need to install following packages first: 
+If you have the new installation OS, please install the following packages first.
   - fish 
   - eza
   - lazygit
   - docker 
   - docker-compose
+
+Maybe Archliux? Simple.
+```shell
+sudo pacman -S fish eza lazygit docker docker-compose
+```
+
 
 ### Rsync to update setting.
 
@@ -43,7 +49,7 @@ funcsave: wrote /home/hayden/.config/fish/functions/history.fish
 funcsave: wrote /home/hayden/.config/fish/functions/ls.fish
 
 ┬─[hayden@HaydenArchRPi4:~]─[02:28:12 PM]
-╰─>$ alias --save ll 'eza -l'
+╰─>$ alias --save ll 'eza -l --group-directories-first'
 funcsave: wrote /home/hayden/.config/fish/functions/ll.fish
 
 ┬─[hayden@HaydenArchRPi4:~]─[02:28:26 PM]
