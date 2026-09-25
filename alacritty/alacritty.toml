@@ -1,57 +1,84 @@
+[general]
 live_config_reload = true
-
-import = [
-    #"~/.config/alacritty/themes/themes/ayu_dark.toml"
-    "~/.config/alacritty/themes/themes/base16_default_dark.toml"
-]
-
-[cursor]
-blink_interval = 750
-unfocused_hollow = true
-
-[cursor.style]
-blinking = "On"
-shape = "Underline"
 
 [env]
 TERM = "xterm-256color"
 
-[font]
-builtin_box_drawing = true
-size = 10.5
+[bell]
+#animation = "Ease" | "EaseOut" | "EaseOutSine" | "EaseOutQuad" | "EaseOutCubic" | "EaseOutQuart" | "EaseOutQuint" | "EaseOutExpo" | "EaseOutCirc" | "Linear"
+animation = "Ease" 
 
-[font.bold]
-family = "JetBrainsMono Nerd Font Mono"
-style = "Semibold"
-
-[font.bold_italic]
-family = "JetBrainsMono Nerd Font Mono"
-style = "Bold Italic"
-
-[font.italic]
-family = "JetBrainsMono Nerd Font Mono"
-style = "Italic"
-
-[font.normal]
-family = "JetBrainsMono Nerd Font Mono"
-style = "Semibold"
-
-[font.offset]
-x = 0
-y = 0
-
-[hints]
-alphabet = "jfkdls;ahgurieowpq"
-
-[mouse]
-hide_when_typing = false
+[window]
+opacity = 0.85
+decorations = "Full"
+blur = true
+startup_mode = "Windowed"
+dynamic_title = true
+# decorations_theme_variant = "Dark" | "Light" | "None"
+decorations_theme_variant = "Light"
+padding = { x = 5, y = 5}
+dynamic_padding = true
 
 [selection]
 save_to_clipboard = true
-semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
-[window]
-dynamic_padding = true
-dynamic_title = true
-opacity = 1.0
-startup_mode = "Windowed"
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+
+#[font.bold]
+#family = "monospace"
+#style = "Bold"
+#
+#[font.bold_italic]
+#family = "monospace"
+#style = "Bold Italic"
+#
+#[font.italic]
+#family = "monospace"
+#style = "Italic"
+#
+#[font.normal]
+#family = "monospace"
+#style = "Regular"
+
+
+# 
+# --- theme start
+# Colors (Tokyo Night)
+
+# Primary colors
+[colors.primary]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+# Normal colors
+[colors.normal]
+black = "#15161e"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#a9b1d6"
+
+# Bright colors
+[colors.bright]
+black = "#414868"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#c0caf5"
+
+[colors.cursor]
+cursor = "#c0caf5"
+
+[colors.selection]
+background = "#283457"
+# -- theme end
